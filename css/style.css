@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: linear-gradient(180deg, #E6FEFF 15.4%, #BFFFBD 47.4%, #D7D7D7 60.4%, #FEFFDD 100%);
+    width: 1440px;
+    height: 2649px;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    width: 1030px;
+    height: 45px;
+    position: fixed;
+    z-index: 1;
+}
+
+.header li {
+    /* border: 0.1px solid black; */
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Play;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+nav ul {
+    padding-left: 252px;
+    padding-right: 253px;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 78px;
+}
+
+
+
+.hlt div.title {
+    width: 546px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Play;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hlt {
+    padding-left: 490px;
+    padding-right: 490px;
+    padding-top: 180px;
+    display: inline-block;
+}
+
+.hlt div.description {
+    padding-top: 30px;
+    padding-left: 74px;
+    width: 396px;
+    height: 170px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Play;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+div.top div#glass {
+    position: relative;
+    top: -420px;
+    width: 364px;
+    height: 444px;
+    flex-shrink: 0;
+    float: right;
+    padding-top: 80px;
+    padding-right: 20px;
+}
+
+div.top div#avocado {
+    position: relative;
+    left: 90px;
+    top: -270px;
+    float: left;
+    padding-left: 20px;
+    width: 315px;
+    height: 349px;
+    flex-shrink: 0;
+}
+
+div.pitanie div#text_title {
+    position: relative;
+    top: 320px;
+    left: -200px;
+    float: left;
+    width: 207px;
+    height: 59px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+div.pitanie div#text_desc {
+    position: relative;
+    top: 360px;
+    left: -200px;
+    float: left;
+    width: 532px;
+    height: 364px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+div.pitanie div#apple {
+    position: relative;
+    top: 20px;
+    left: 320px;
+    float: right;
+    width: 525px;
+    height: 308px;
+    flex-shrink: 0;
+    transform: rotate(-6.408deg);
+}
+
+div.sport div#text_title {
+    position: relative;
+    top: 600px;
+    left: 1010px;
+    width: 147px;
+    height: 59px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+div.sport div#text_desc {
+    position: relative;
+    top: 700px;
+    left: 810px;
+    width: 532px;
+    height: 364px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+div.sport div#gantelya {
+    position: relative;
+    left: 140px;
+    top: 670px;
+    width: 456px;
+    height: 329px;
+    flex-shrink: 0;
+}
+
+div.privichki { 
+    width: 600px;
+}
+div.privichki div#text_title {
+    position: relative;
+    top: 820px;
+    left: 445px;
+    margin: 0 auto;
+    width: 626px;
+    height: 59px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+div.privichki div#text_desc {
+    position: relative;
+    margin: 0 auto;
+    left: 460px;
+    top: 860px;
+    width: 566px;
+    height: 364px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+div.privichki div#imgs div#cigarettes {
+    position: relative;
+    width: 100px;
+    top: 500px;
+    left: 110px;
+    flex-shrink: 0;
+}
+div.privichki div#imgs div#beer {
+    position: relative;
+    left: 1130px;
+    width: 100px;
+    top: 63px;
+    flex-shrink: 0;
+} 
+
+footer div span {
+    color: #000;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 300;
+}
+footer div {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 100px;
+    top: 167px;
+    width: 1536px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+#mainlink:hover {
+    color: rgb(138, 138, 138);
+}
+#sportlink:hover {
+    color: rgb(138, 138, 138);
+}
+#pitanielink:hover {
+    color: rgb(138, 138, 138);
+}
+#privichkilink:hover {
+    color: rgb(138, 138, 138);
+}
