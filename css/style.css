@@ -268,13 +268,17 @@ footer div {
 
 #mainlink:hover {
     color: rgb(138, 138, 138);
+    cursor: pointer;
 }
 #sportlink:hover {
     color: rgb(138, 138, 138);
+    cursor: pointer;
 }
 #pitanielink:hover {
     color: rgb(138, 138, 138);
+    cursor: pointer;
 }
 #privichkilink:hover {
     color: rgb(138, 138, 138);
+    cursor: pointer;
 }
