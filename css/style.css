@@ -34,6 +34,13 @@ body {
         margin-top: -10px;
         padding-bottom: 20px;
     }
+    a {
+        transition: .1s linear;
+    }
+    .header a:hover, .header a:active {
+        color: #000000;
+        opacity: .7;
+    }
 
     .header__active {
         background-color: #ffffff;
@@ -73,6 +80,7 @@ body {
         letter-spacing: 0%;
         text-align: left;
         text-decoration: none;
+        cursor: pointer;
     }
 
     .header__link:hover,
@@ -346,6 +354,7 @@ body {
         display: grid;
         left: -460px;
         top: 130px;
+        z-index: 400;
     }
 
     .feed__salad {
@@ -426,6 +435,7 @@ body {
     /* Hygiene Styles End */
     .hygiene .hero_area {
         transform: rotate(180deg) scaleX(-1);
+        margin-top: -1px;
     }
 
     .hygiene {
@@ -472,6 +482,7 @@ body {
         height: 217px;
         position: relative;
         overflow: hidden;
+        transition: .3s linear;
     }
     .hygiene__images div {
         margin: 0 107px;
@@ -479,6 +490,9 @@ body {
     .hygiene__images {
         display: flex;
         justify-content: center;
+    }
+    .hygiene__images img:hover {
+        border-radius: 20px;
     }
 
     /* Hygiene Styles End */
