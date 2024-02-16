@@ -20,7 +20,9 @@ body {
 *::after {
     box-sizing: inherit;
 }
-
+.feed__wave {
+    display: none;
+}
 /* Header Styles Start */
 .header {
     position: fixed;
@@ -32,10 +34,13 @@ body {
     margin-top: -10px;
     padding-bottom: 20px;
 }
+
 a {
     transition: .1s linear;
 }
-.header a:hover, .header a:active {
+
+.header a:hover,
+.header a:active {
     color: #000000;
     opacity: .7;
 }
@@ -421,10 +426,13 @@ a:active {
     margin-top: -430px;
     left: 400px;
 }
+
 .sport__description a {
     color: rgb(0, 153, 15);
 }
-.sport__description a:hover, .sport__description a:active {
+
+.sport__description a:hover,
+.sport__description a:active {
     color: rgb(0, 125, 12);
 }
 
@@ -470,7 +478,7 @@ a:active {
     line-height: 29px;
     letter-spacing: 0%;
     text-align: center;
-    
+
     margin-bottom: 68px;
 }
 
@@ -482,13 +490,16 @@ a:active {
     overflow: hidden;
     transition: .3s linear;
 }
+
 .hygiene__images div {
     margin: 0 107px;
 }
+
 .hygiene__images {
     display: flex;
     justify-content: center;
 }
+
 .hygiene__images img:hover {
     border-radius: 20px;
 }
@@ -502,6 +513,7 @@ a:active {
     background: rgb(119, 124, 242) no-repeat center;
     background-size: cover;
 }
+
 .cycle__toothpaste {
     position: relative;
     width: 100vw;
@@ -509,6 +521,7 @@ a:active {
     height: 92px;
     z-index: 300;
 }
+
 .cycle__wrap {
     position: relative;
     max-width: 480px;
@@ -517,6 +530,7 @@ a:active {
     left: -380px;
     margin-bottom: -770px;
 }
+
 .cycle__title {
     position: relative;
     color: rgb(255, 255, 255);
@@ -529,6 +543,7 @@ a:active {
     margin-bottom: 49px;
     z-index: 100;
 }
+
 .cycle__description {
     position: relative;
     color: rgb(255, 255, 255);
@@ -541,17 +556,22 @@ a:active {
     margin-bottom: -730px;
     z-index: 100;
 }
+
 .cycle__moon {
     position: relative;
     left: 50px;
     z-index: 50;
 }
+
 .cycle__description a {
     color: rgb(65, 65, 65);
 }
-.cycle__description a:hover, .cycle__description a:active {
+
+.cycle__description a:hover,
+.cycle__description a:active {
     color: rgb(77, 77, 77);
 }
+
 .cycle__bed {
     position: relative;
     z-index: 200;
@@ -559,6 +579,7 @@ a:active {
     max-width: 825px;
     margin: 0 auto;
 }
+
 /* Cycle Styles End */
 
 /* Footer Styles Start */
@@ -568,10 +589,12 @@ a:active {
     background: rgb(255, 255, 255);
     z-index: 400;
 }
+
 .footer__wrapper {
     max-width: 322px;
     margin: 0 auto;
 }
+
 .footer__text {
     position: relative;
     color: rgb(0, 0, 0);
@@ -582,7 +605,7 @@ a:active {
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
-    line-height: 84px;  
+    line-height: 84px;
 }
 
 /* Footer Styles End */
@@ -592,79 +615,102 @@ a:active {
         margin-right: 40px;
         transform: scale(0.9);
     }
+
     .header__logo {
         padding-left: 40px;
         transform: scale(0.9);
     }
+
     .header__link:last-child {
         padding-right: 40px;
     }
+
     .leaves__1 {
+        position: relative;
+        top: -960px;
         left: -260px;
         filter: blur(1.9px);
         transform: scale(0.9);
     }
+
     .texts__wrap {
         left: -430px;
         transform: scale(0.9);
     }
+
     .cycle__wrap {
         left: -325px;
     }
+
     .cycle__bed {
         transform: scale(0.9);
     }
+
     .sport__wheel {
         transform: scale(0.9);
         left: 360px;
     }
+
     .feed__salad {
         transform: scale(0.9);
         left: 300px;
     }
+
     .strawberry {
         transform: scale(0.9);
     }
+
     .pears {
         transform: scale(0.9);
         left: 925px;
     }
+
     .peach {
         transform: scale(0.9);
         left: 460px;
     }
+
     .orange {
         transform: scale(0.9);
         left: -550px;
     }
+
     .leaves__2 {
         transform: scale(0.9);
         top: 930px;
         left: 900px;
     }
+
     .sport__wrap {
         transform: scale(0.9);
     }
+
     .hygiene__wrap {
         transform: scale(0.9);
     }
+
     .cycle__toothpaste {
         transform: scaleY(0.9);
     }
+
     .cycle__wrap {
         transform: scale(0.9);
     }
+
     .footer__wrap {
         transform: scale(0.9);
     }
+
     .waves {
         height: 80px;
         min-height: 80px;
     }
+
     .hero_area {
         margin-top: -70px;
         margin-bottom: -70px;
     }
+
     .hygiene .hero_area {
         margin-bottom: 0;
     }
